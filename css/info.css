@@ -1,0 +1,97 @@
+.inner {
+  margin-left: 0 auto;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  background: rgba(38, 26, 64, 1);
+}
+
+section {
+  height: 300px;
+}
+main {
+  height: 800px;
+  background: rgb(38, 26, 64);
+  background: linear-gradient(
+    180deg,
+    rgba(38, 26, 64, 1) 0%,
+    rgba(217, 206, 242, 1) 90%
+  );
+}
+.info-logo {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 300px;
+}
+/*
+.seperate {
+  display: flex;
+}*/
+.left {
+  background: rgb(38, 26, 64);
+  background: linear-gradient(
+    180deg,
+    rgba(38, 26, 64, 1) 1%,
+    rgb(242, 209, 206) 99%
+  );
+  left: 0;
+  height: 750px;
+  width: 100%;
+}
+
+.right {
+  background: rgb(38, 26, 64);
+  background: linear-gradient(
+    180deg,
+    rgba(38, 26, 64, 1) 1%,
+    rgb(242, 209, 206) 99%
+  );
+  right: 0;
+  height: 700px;
+  width: 100%;
+}
+.lr-text {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  color: rgb(186, 148, 108);
+}
+.about-us {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  border: 1px white solid;
+  width: 70%;
+}
+.about-h {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+.information {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  border: 1px white solid;
+  border-width: 2px;
+}
+a {
+  text-decoration: none;
+}
+.information:hover {
+  color: rgba(197, 230, 245, 1);
+}

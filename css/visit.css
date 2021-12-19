@@ -1,0 +1,292 @@
+.inner {
+  margin-left: 0 auto;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  background: rgba(159, 150, 217, 1);
+}
+section {
+  height: 580px;
+}
+
+main {
+  height: 800px;
+  background: rgb(9, 5, 6);
+  background: linear-gradient(
+    180deg,
+    rgba(9, 5, 6, 1) 0%,
+    rgba(242, 5, 68, 1) 50%,
+    rgba(159, 150, 217, 1) 100%
+  );
+}
+
+.hero-banner {
+  background-image: url(/img/alien.jpg);
+  background-color: transparent;
+  background-position: center;
+  background-size: cover;
+  height: 580px;
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+}
+.might {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+.close {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  margin-top: 430px;
+  color: white;
+}
+
+.top-left {
+  height: 300px;
+  width: 100px;
+  margin-top: 80px;
+}
+.top-right {
+  height: 300px;
+  width: 100px;
+
+  margin-top: 80px;
+}
+.bottom-left {
+  height: 300px;
+  width: 100px;
+
+  margin-top: 80px;
+}
+.bottom-right {
+  height: 300px;
+  width: 100px;
+
+  margin-top: 80px;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.top-left2 {
+  height: 300px;
+  width: 100px;
+
+  margin-top: 50px;
+}
+.top-right2 {
+  height: 300px;
+  width: 100px;
+
+  margin-top: 50px;
+}
+.bottom-left2 {
+  height: 300px;
+  width: 100px;
+
+  margin-top: 50px;
+}
+.bottom-right2 {
+  height: 300px;
+  width: 100px;
+
+  margin-top: 50px;
+}
+.images2 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.ivisit {
+  height: 150px;
+  width: 100%;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  color: rgba(159, 150, 217, 1);
+}
+.run {
+  color: rgb(50, 132, 64);
+}
+.house {
+  color: rgb(139, 195, 217);
+}
+.rap {
+  color: rgb(0, 0, 0);
+}
+.elephant {
+  color: rgb(217, 145, 82);
+}
+.bird {
+  color: rgb(242, 235, 223);
+}
+.tex {
+  color: rgb(242, 209, 206);
+}
+.wierd {
+  color: rgb(30, 130, 217);
+}
+p {
+  display: none;
+  /*
+  position: absolute;*/
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown:hover p {
+  display: block;
+}
+.ivisit:hover {
+  border: 1px white solid;
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .close {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 350px;
+    color: white;
+  }
+  .ivisit {
+    height: 120px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .close {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 370px;
+    color: white;
+  }
+  .ivisit {
+    height: 120px;
+  }
+  h4 {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .close {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 400px;
+    color: white;
+  }
+  .ivisit {
+    height: 220px;
+    width: 120%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .close {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 500px;
+    color: white;
+  }
+  .ivisit {
+    height: 220px;
+    width: 120%;
+  }
+  .hero-banner {
+    background-image: url(/img/alien.jpg);
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    background-position-y: -500px;
+  }
+  h4 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .close {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 500px;
+    color: white;
+  }
+  .ivisit {
+    height: 220px;
+    width: 140%;
+  }
+  .hero-banner {
+    background-image: url(/img/alien.jpg);
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    background-position-y: -900px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .close {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 500px;
+    color: white;
+  }
+  .ivisit {
+    height: 220px;
+    width: 140%;
+  }
+  .hero-banner {
+    background-image: url(/img/alien.jpg);
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    background-position-y: -1000px;
+  }
+  h4 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+  }
+}

@@ -1,0 +1,27 @@
+header {
+  height: 100px;
+  background-color: rgb(38, 26, 64);
+}
+.inner {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.logo {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.button2 {
+  float: right;
+  margin-right: 20px;
+  margin-top: 30px;
+  background-color: transparent;
+  border: rgba(217, 206, 242, 1) 1px solid;
+  color: rgba(217, 206, 242, 1);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  align-items: center;
+}

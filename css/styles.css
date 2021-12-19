@@ -1,0 +1,591 @@
+.inner {
+  margin-left: 0 auto;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  background: rgba(38, 26, 64, 1);
+}
+
+section {
+  height: 300px;
+}
+main {
+  height: 1100px;
+  background: rgb(38, 26, 64);
+  background: linear-gradient(
+    180deg,
+    rgba(38, 26, 64, 1) 0%,
+    rgba(217, 206, 242, 1) 90%
+  );
+}
+/*space girl*/
+.space-girl {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left img {
+  width: 150px;
+  padding: 20px;
+}
+.left {
+  display: flex;
+}
+.text-left {
+  display: flex;
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 450px;
+  left: 70px;
+}
+.right img {
+  width: 150px;
+  padding: 20px;
+}
+.right {
+  display: flex;
+}
+.text-right {
+  display: flex;
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 450px;
+  right: 78px;
+}
+.text-middle {
+  color: rgb(186, 148, 108);
+  position: relative;
+  top: 269px;
+}
+/*man*/
+.man {
+  display: flex;
+  justify-content: space-between;
+}
+
+.man-left img {
+  width: 150px;
+  padding: 20px;
+}
+.man-left {
+  display: flex;
+}
+
+.man-right img {
+  width: 150px;
+  padding: 20px;
+  height: 411px;
+}
+.man-right {
+  display: flex;
+}
+.text-left2 {
+  display: flex;
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 1030px;
+  left: 70px;
+}
+
+.text-right2 {
+  display: flex;
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 1030px;
+  right: 60px;
+}
+.text-middle2 {
+  color: rgb(187, 203, 216);
+  position: relative;
+  top: 170px;
+}
+/*hero*/
+.hero-banner h3 {
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+.hero-banner h2 {
+  text-align: center;
+  color: white;
+}
+.hero-banner {
+  background-image: url(/img/photoholgic-awfeuSTvXaw-unsplash-2.png);
+  background-color: transparent;
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+}
+.dark-overlay {
+  position: absolute;
+  background: rgb(38, 26, 64);
+  background: linear-gradient(
+    180deg,
+    rgba(38, 26, 64, 1) 0%,
+    rgba(159, 150, 217, 0.6699054621848739) 100%
+  );
+  top: 100px;
+  height: 300px;
+  width: 100%;
+  opacity: 30%;
+  z-index: 1;
+}
+.text {
+  position: relative;
+  z-index: 5;
+}
+
+@media screen and (min-width: 539px) and (max-width: 767px) {
+  section {
+    height: 500px;
+  }
+  .hero-banner {
+    background-image: url(/img/photoholgic-awfeuSTvXaw-unsplash-2.png);
+    background-color: transparent;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+  }
+
+  .dark-overlay {
+    position: absolute;
+    /*
+  background-color: rgba(38, 26, 64, 1);*/
+    background: rgb(38, 26, 64);
+    background: linear-gradient(
+      180deg,
+      rgba(38, 26, 64, 1) 0%,
+      rgba(159, 150, 217, 0.6699054621848739) 100%
+    );
+    top: 100px;
+    height: 500px;
+    width: 100%;
+    opacity: 30%;
+    z-index: 1;
+  }
+  .text {
+    position: relative;
+    z-index: 5;
+  }
+  .text-left {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 670px;
+    left: 75px;
+  }
+  .text-right {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 670px;
+    right: 80px;
+  }
+  .text-middle {
+    color: rgb(186, 148, 108);
+    position: relative;
+    top: 270px;
+  }
+  .text-left2 {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 1230px;
+    left: 70px;
+  }
+
+  .text-right2 {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 1230px;
+    right: 60px;
+  }
+  .text-middle2 {
+    color: rgb(187, 203, 216);
+    position: relative;
+    top: 170px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  section {
+    height: 500px;
+  }
+  .hero-banner {
+    background-image: url(/img/photoholgic-awfeuSTvXaw-unsplash-2.png);
+    background-color: transparent;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .dark-overlay {
+    position: absolute;
+    /*
+    background-color: rgba(38, 26, 64, 1);*/
+    background: rgb(38, 26, 64);
+    background: linear-gradient(
+      180deg,
+      rgba(38, 26, 64, 1) 0%,
+      rgba(159, 150, 217, 0.6699054621848739) 100%
+    );
+    top: 100px;
+    height: 500px;
+    width: 100%;
+    opacity: 30%;
+    z-index: 1;
+  }
+  .text {
+    position: relative;
+    z-index: 5;
+  }
+  main {
+    height: 1600px;
+  }
+  .space-girl {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left img {
+    width: 220px;
+    padding: 20px;
+  }
+  .right img {
+    width: 220px;
+    padding: 20px;
+  }
+  .man {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .man-left img {
+    width: 222px;
+    padding: 20px;
+  }
+  .man-right img {
+    width: 222px;
+    padding: 20px;
+    height: 605px;
+  }
+  .text-left {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 680px;
+    left: 110px;
+  }
+
+  .text-right {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 680px;
+    right: 110px;
+  }
+  .text-middle {
+    color: rgb(186, 148, 108);
+    position: relative;
+    top: 380px;
+  }
+  .text-left2 {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 1500px;
+    left: 100px;
+  }
+
+  .text-right2 {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 1500px;
+    right: 85px;
+  }
+  .text-middle2 {
+    color: rgb(187, 203, 216);
+    position: relative;
+    top: 210px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  section {
+    height: 700px;
+  }
+  .hero-banner {
+    background-image: url(/img/photoholgic-awfeuSTvXaw-unsplash-2.png);
+    background-color: transparent;
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+  }
+  .dark-overlay {
+    position: absolute;
+    /*
+    background-color: rgba(38, 26, 64, 1);*/
+    background: rgb(38, 26, 64);
+    background: linear-gradient(
+      180deg,
+      rgba(38, 26, 64, 1) 0%,
+      rgba(159, 150, 217, 0.6699054621848739) 100%
+    );
+    top: 100px;
+    height: 700px;
+    width: 100%;
+    opacity: 30%;
+    z-index: 1;
+  }
+  .text {
+    position: relative;
+    z-index: 5;
+  }
+  main {
+    height: 2200px;
+  }
+  .space-girl {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left img {
+    width: 320px;
+    padding: 20px;
+  }
+  .right img {
+    width: 320px;
+    padding: 20px;
+  }
+  .man {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .man-left img {
+    width: 322px;
+    padding: 20px;
+  }
+  .man-right img {
+    width: 322px;
+    padding: 20px;
+    height: 880px;
+  }
+  .text-left {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 900px;
+    left: 150px;
+  }
+
+  .text-right {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 900px;
+    right: 160px;
+  }
+  .text-middle {
+    color: rgb(186, 148, 108);
+    position: relative;
+    top: 380px;
+  }
+  .text-left2 {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 2060px;
+    left: 150px;
+  }
+
+  .text-right2 {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 2060px;
+    right: 130px;
+  }
+  .text-middle2 {
+    color: rgb(187, 203, 216);
+    position: relative;
+    top: 210px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  main {
+    height: 750px;
+  }
+
+  .space-girl {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left img {
+    width: 100px;
+    padding: 20px;
+  }
+  .right img {
+    width: 100px;
+    padding: 20px;
+  }
+  .man {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .man-left img {
+    width: 100px;
+    padding: 20px;
+  }
+  .man-right img {
+    width: 100px;
+    padding: 20px;
+    height: 273px;
+  }
+  .text-left {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 450px;
+    left: 50px;
+  }
+
+  .text-right {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 450px;
+    right: 52px;
+  }
+  .text-middle {
+    color: rgb(186, 148, 108);
+    position: relative;
+    top: 180px;
+  }
+  .text-left2 {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 850px;
+    left: 45px;
+  }
+
+  .text-right2 {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 850px;
+    right: 32px;
+  }
+  .text-middle2 {
+    color: rgb(187, 203, 216);
+    position: relative;
+    top: 110px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  main {
+    height: 900px;
+  }
+  .space-girl {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left img {
+    width: 120px;
+    padding: 20px;
+  }
+  .right img {
+    width: 120px;
+    padding: 20px;
+  }
+  .man {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .man-left img {
+    width: 122px;
+    padding: 20px;
+  }
+  .man-right img {
+    width: 122px;
+    padding: 20px;
+    height: 335px;
+  }
+  .text-left {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 450px;
+    left: 60px;
+  }
+
+  .text-right {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 450px;
+    right: 60px;
+  }
+  .text-middle {
+    color: rgb(186, 148, 108);
+    position: relative;
+    top: 180px;
+  }
+  .text-left2 {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 914px;
+    left: 60px;
+  }
+
+  .text-right2 {
+    display: flex;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 914px;
+    right: 40px;
+  }
+  .text-middle2 {
+    color: rgb(187, 203, 216);
+    position: relative;
+    top: 110px;
+  }
+}

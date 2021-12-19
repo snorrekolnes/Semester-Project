@@ -1,0 +1,124 @@
+/* Snorre search bar*/
+.box {
+  position: absolute;
+  align-items: center;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.input {
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: 3px solid rgba(217, 206, 242);
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 26px;
+  color: rgba(217, 206, 242);
+  outline: none;
+  transition: 0.7s;
+}
+.box:hover input {
+  width: 200px;
+  background: transparent;
+  border-radius: 10px;
+}
+i {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translate(-60%, -40%);
+  font-size: 26px;
+  color: rgba(217, 206, 242);
+  transition: 0.2s;
+}
+.box:hover i {
+  opacity: 4;
+  z-index: -1;
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  /* search bar*/
+  .box {
+    position: absolute;
+    align-items: center;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .input {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: 2px solid rgba(217, 206, 242);
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 26px;
+    color: rgba(217, 206, 242);
+    outline: none;
+    transition: 0.5s;
+  }
+  .box:hover input {
+    width: 100px;
+    background: transparent;
+    border-radius: 30px;
+  }
+  i {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    color: rgba(217, 206, 242);
+    transition: 0.2s;
+  }
+  .box:hover i {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  /* search bar*/
+  .box {
+    position: absolute;
+    align-items: center;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .input {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: 2px solid rgba(217, 206, 242);
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 26px;
+    color: rgba(217, 206, 242);
+    outline: none;
+    transition: 0.5s;
+  }
+  .box:hover input {
+    width: 150px;
+    background: transparent;
+    border-radius: 20px;
+  }
+  i {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    color: rgba(217, 206, 242);
+    transition: 0.2s;
+  }
+  .box:hover i {
+    opacity: 0;
+    z-index: -1;
+  }
+}

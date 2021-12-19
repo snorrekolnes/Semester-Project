@@ -1,0 +1,29 @@
+footer {
+  /*
+    display: flex;*/
+  height: 300px;
+  background: rgb(217, 206, 242);
+  background: linear-gradient(
+    180deg,
+    rgba(159, 150, 217, 1) 0%,
+    rgba(217, 206, 242, 1) 100%
+  );
+}
+.links a {
+  text-decoration: none;
+  color: white;
+  margin-top: 70px;
+}
+.links {
+  display: flex;
+
+  justify-content: space-around;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+}

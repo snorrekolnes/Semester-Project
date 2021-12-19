@@ -1,0 +1,8 @@
+header {
+  height: 10px;
+  background-color: rgb(38, 26, 64);
+}
+.inner {
+  margin: 0 auto;
+  padding: 0 auto;
+}
